@@ -1,15 +1,15 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-    padding: 500px 16px;
+    padding: 200px 16px 300px;
     background-color: ${({ isTimerFinished }) => (isTimerFinished ? '#E9E8D6' : '#E4E8EB')};
 
     @media screen and (min-width: 480px) {
-        padding: 500px 50px;
+        padding: 200px 50px 300px;
     }
     
     @media screen and (min-width: 768px) {
-        padding: 500px 200px;
+        padding: 200px 200px 300px;
     }
 `;
 
